@@ -1,0 +1,34 @@
+unit Validation.Rules.NotNull;
+
+interface
+
+type
+  TValidationRulesNotNull = class(TInterfacedObject, iValidationRules)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iValidationRules;
+  end;
+
+implementation
+
+{ TValidationRulesNotNull }
+
+constructor TValidationRulesNotNull.Create;
+begin
+
+end;
+
+destructor TValidationRulesNotNull.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TValidationRulesNotNull.New: iValidationRules;
+begin
+  Result := Self.Create;
+end;
+
+end.

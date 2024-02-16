@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/16 13:50:46.000.996,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 13:38:03.000.251,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 19:32:30.000.647,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/21 19:59:27.000.483,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\thuli\Desktop\Live\Unit1.dfm</Transaction>
+    <Transaction>2021/05/21 19:59:27.000.483,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\thuli\Desktop\Live\Unit1.pas</Transaction>
+    <Transaction>2021/05/21 19:59:31.000.845,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\thuli\Desktop\Live\Project1.dproj</Transaction>
+    <Transaction>2021/05/21 20:03:18.000.752,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 20:03:29.000.419,C:\Users\thuli\Desktop\Live\Unit2.pas=C:\Users\thuli\Desktop\Live\Validation.Interfaces.pas</Transaction>
+    <Transaction>2021/05/21 20:15:16.364,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 20:15:24.958,C:\Users\thuli\Desktop\Live\Validation.Rules.Params.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 20:25:08.089,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 20:25:18.166,C:\Users\thuli\Desktop\Live\Validation.Rules.NotNull.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 20:36:54.190,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 20:37:01.418,C:\Users\thuli\Desktop\Live\Validation.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 21:09:18.179,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 21:09:31.551,C:\Users\thuli\Desktop\Live\Validation.Rules.MaxLength.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/21 21:15:26.227,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:10:04.325,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:10:13.974,C:\Users\thuli\Desktop\Live\Validation.Rules.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:13:10.781,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:13:18.200,C:\Users\thuli\Desktop\Live\Validation.Rules.MinLength.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:17:22.705,C:\Users\thuli\Desktop\Live\Validation.Rules.pas=</Transaction>
+    <Transaction>2021/05/24 12:17:26.416,C:\Users\thuli\Desktop\Live\Validation.Rules.MinLength.pas=</Transaction>
+    <Transaction>2021/05/24 12:21:30.635,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:21:41.280,C:\Users\thuli\Desktop\Live\Validation.Rules.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:26:09.324,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:26:18.347,C:\Users\thuli\Desktop\Live\Validation.Rules.MinLength.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:40:32.715,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:40:43.184,C:\Users\thuli\Desktop\Live\Validation.Rules.CPF.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:44:26.547,=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+    <Transaction>2021/05/24 12:44:34.572,C:\Users\thuli\Desktop\Live\Validation.Rules.CNPJ.pas=C:\Users\thuli\Desktop\Live\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

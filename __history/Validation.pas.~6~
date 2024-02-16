@@ -1,0 +1,50 @@
+unit Validation;
+
+interface
+
+uses
+  Validation.Interfaces,
+  System.Generics.Collections;
+
+type
+  TValidation = class(TInterfacedObject, iValidation)
+    private
+      FListRules : TList<iValidationRules>;
+      FNotNull : iValidationRules;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iValidation;
+      function NotNull : iValidationRules;
+  end;
+
+implementation
+
+uses
+  Validation.Rules.NotNull;
+
+{ TValidation }
+
+constructor TValidation.Create;
+begin
+  FListRules := TList<iValidationRules>.Create;
+end;
+
+destructor TValidation.Destroy;
+begin
+  FListRules.Free;
+  inherited;
+end;
+
+class function TValidation.New: iValidation;
+begin
+  Result := Self.Create;
+end;
+
+function TValidation.NotNull: iValidationRules;
+begin
+  FListRules.Add(TValidationRulesNotNull.New(Self));
+  Result := FListRules.Last;
+end;
+
+end.

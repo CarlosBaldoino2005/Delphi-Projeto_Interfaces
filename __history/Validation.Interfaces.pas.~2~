@@ -1,0 +1,33 @@
+unit Validation.Interfaces;
+
+interface
+
+uses
+  System.Classes;
+
+type
+
+  iValidation = interface
+    ['{53120B74-C4DE-4AD8-8817-41A8D5C04D3B}']
+  end;
+
+
+  iValidationRules = interface
+    ['{F3074B37-80EC-4665-B8A7-4626D2119121}']
+  end;
+
+  iValidationRulesParams = interface
+    ['{BAAAEB94-735B-40D6-8DA9-4A7338576A7E}']
+    function Component ( aValue : TComponent ) : iValidationRulesParams; overload;
+    function Component : TComponent; overload;
+
+    .Component(Edit1)
+          .ColorDanger(clRed)
+          .ColorDefault(clWhite)
+          .DisplayLabel(Label1)
+          .DisplayMsg('Edit1 não pode ser Nulo')
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,7 @@
+unit Validation.Rules.CNPJ;
+
+interface
+
+implementation
+
+end.

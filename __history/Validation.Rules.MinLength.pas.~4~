@@ -1,0 +1,7 @@
+unit Validation.Rules.MinLength;
+
+interface
+
+implementation
+
+end.

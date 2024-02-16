@@ -1,0 +1,7 @@
+unit Validation.Rules.NotNull;
+
+interface
+
+implementation
+
+end.

@@ -1,0 +1,39 @@
+unit Validation.Rules;
+
+interface
+
+uses
+  Validation.Interfaces;
+
+type
+  TValidationRules = class (TInterfacedObject, iValidationRules)
+    private
+      [weak]
+      FParent : iValidation;
+    public
+      constructor Create(Parent : iValidation);
+      destructor Destroy; override;
+      class function New (Parent : iValidation) : iValidationRules;
+  end;
+
+implementation
+
+{ TValidationRules }
+
+constructor TValidationRules.Create(Parent: iValidation);
+begin
+  FParent := Parent;
+end;
+
+destructor TValidationRules.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TValidationRules.New(Parent: iValidation): iValidationRules;
+begin
+  Result := Self.Create(Parent);
+end;
+
+end.

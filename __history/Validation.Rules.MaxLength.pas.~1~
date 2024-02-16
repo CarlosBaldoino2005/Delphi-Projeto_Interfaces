@@ -1,0 +1,7 @@
+unit Validation.Rules.MaxLength;
+
+interface
+
+implementation
+
+end.

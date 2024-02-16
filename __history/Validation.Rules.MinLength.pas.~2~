@@ -1,0 +1,14 @@
+unit Validation.Rules.MinLength;
+
+interface
+
+type
+  TValidationRulesMinLength = class(TValidationRules)
+    private
+    public
+  end;
+
+
+implementation
+
+end.
